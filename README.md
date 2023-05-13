@@ -65,7 +65,7 @@ This will install all the packages and dependencies used in the project.
 npm run dev
 ```
 
-This will open up the project on a browser on `http://localhost:5173/`.
+This will open up the project on a browser on `http://localhost:5173/`
 
 ## Build
 
