@@ -35,7 +35,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'YourName', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'charity.w.nelima@gmail.com', //put your email here.
           message: form.message,
         },
         'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
