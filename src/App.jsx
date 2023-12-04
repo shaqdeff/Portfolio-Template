@@ -7,6 +7,7 @@ import {
   Navbar,
   Tech,
   Projects,
+  Footer,
 } from './components';
 
 const App = () => {
@@ -39,6 +40,9 @@ const App = () => {
         </div>
         <div className="relative z-0">
           <Contact />
+        </div>
+        <div className='flex items-center justify-center'>
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
