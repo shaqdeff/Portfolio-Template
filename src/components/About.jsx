@@ -37,12 +37,14 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a software developer who is interested in flexibility in management. I have a
+        technological background in Information Technology which has a relative impact in building
+        responsive websites that are helpful to the community.
+        I have gained influential skills from Lakehub whose aim has majorly been solving society's
+        problems through creating dynamic websites.I am one person who is very passionate about
+        female growth and empowerment, generally interested in youth development.
+        I would like to work in a collaborative environment due to good social skills in working with
+        people and bringing the best as per what would be required of me.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
