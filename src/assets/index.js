@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/shaq.jpg';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
