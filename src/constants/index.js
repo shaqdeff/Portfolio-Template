@@ -27,6 +27,7 @@ import {
   dcc,
   kelhel,
   microverse,
+
 } from '../assets';
 
 export const navLinks = [
@@ -123,33 +124,33 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: 'Front-End Developer',
+  //   company_name: 'Cover Hunt',
+  //   icon: coverhunt,
+  //   iconBg: '#333333',
+  //   date: 'Aug 2021 - Feb 2022',
+  // },
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'IT Intern',
+    company_name: 'Lakehub',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'August 2021 - Feb 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Wordpress developer',
+    company_name: 'KaaKazini',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'May 2022 - Aug 2023',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Ziqweb',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Sep 2023 - Present',
   },
 ];
 
