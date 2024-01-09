@@ -29,6 +29,11 @@
   src: url('./fonts/overcame-outline.woff');
 }
 
+@font-face {
+  font-family: 'Yaro Rg Bold';
+  src: url('./fonts/YaroRg-Bold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
