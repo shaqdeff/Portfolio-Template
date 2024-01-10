@@ -149,7 +149,7 @@ const experiences = [
     title: 'Full Stack Developer',
     company_name: 'Ziqweb',
     icon: dcc,
-    iconBg: '#333333',
+    iconBg: '#f2eded',
     date: 'Sep 2023 - Present',
   },
 ];
