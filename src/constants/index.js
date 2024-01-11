@@ -135,14 +135,14 @@ const experiences = [
     title: 'IT Intern',
     company_name: 'Lakehub',
     icon: microverse,
-    iconBg: '#333333',
+    iconBg: '#23395d',
     date: 'August 2021 - Feb 2023',
   },
   {
     title: 'Wordpress developer',
     company_name: 'KaaKazini',
     icon: kelhel,
-    iconBg: '#333333',
+    iconBg: '#e8e337',
     date: 'May 2022 - Aug 2023',
   },
   {
