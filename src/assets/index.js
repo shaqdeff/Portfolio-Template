@@ -3,6 +3,8 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 import chars from './backgrounds/characters.jpeg';
+import technology from './backgrounds/technology.jpeg';
+import me from './backgrounds/profile.png'
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
@@ -98,4 +100,6 @@ export {
   kelhel,
   microverse,
   chars,
+  technology,
+  me,
 };
