@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { shaq, bwmap, worldmap, chars } from '../assets';
 
 const Hero = () => {
   return (
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={bwmap}
+          src={chars}
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
@@ -42,12 +42,12 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Cooper
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Computer Science Student
+              <br className="sm:block hidden" /> @ The University of Arizona
             </p>
           </div>
           <div

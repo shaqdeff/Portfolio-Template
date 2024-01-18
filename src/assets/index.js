@@ -2,6 +2,7 @@ import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
+import chars from './backgrounds/characters.jpeg';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
@@ -96,4 +97,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  chars,
 };
