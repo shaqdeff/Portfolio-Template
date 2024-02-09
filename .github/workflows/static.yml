@@ -16,29 +16,41 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build project
-        run: npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './dist'
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+  
+        - name: Setup Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: '16' # 根据你的项目需求调整Node.js版本
+  
+        - name: Install dependencies
+          run: npm install
+  
+        - name: Build project
+          run: npm run build
+  
+        - name: Commit and Push to Prod Branch
+          uses: actions/checkout@v4
+          with:
+            ref: 'prod'
+            token: ${{ secrets.GITHUB_TOKEN }}
+            fetch-depth: 0
+  
+        - run: rsync -av --delete dist/ . && rm -rf dist/
+  
+        - name: Commit files
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add -A
+            git commit -m "Deploy to prod branch" -a || echo "No changes to commit"
+            git push
+  
+        - name: Deploy to GitHub Pages
+          uses: JamesIves/github-pages-deploy-action@v4
+          with:
+            branch: main
+            folder: dist
