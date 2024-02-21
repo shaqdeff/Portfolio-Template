@@ -25,6 +25,9 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import cloud from './icons/cloudComputing.png'
+import apple from './icons/appleLogo.png'
+import IT from './icons/ITLogo.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -75,6 +78,9 @@ export {
   resume,
   send,
   sendHover,
+  cloud,
+  apple,
+  IT,
   css,
   docker,
   figma,

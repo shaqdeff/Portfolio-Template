@@ -37,7 +37,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm double majoring in Computer Science & Information Science Technology and the Arts
+        I'm a Computer Science and Information Science Technology and the Arts double major
+        with a background in web development and software engineering. I'm skilled at creating
+        programs in Java, Python, Javascript, Swift and C with experience working as part of an Agile team.
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
