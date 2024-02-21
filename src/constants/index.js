@@ -30,7 +30,8 @@ import {
   cloud,
   apple,
   IT,
-  
+  python,
+  java,
 } from '../assets';
 
 export const navLinks = [
@@ -89,12 +90,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Python 3',
+    icon: python,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Java',
+    icon: java,
   },
   {
     name: 'Node JS',
