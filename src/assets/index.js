@@ -4,7 +4,7 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 import chars from './backgrounds/characters.jpeg';
 import technology from './backgrounds/technology.jpeg';
-import me from './backgrounds/profile.png'
+import me from './personal/profile.png'
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
@@ -45,6 +45,11 @@ import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 import python from './tech/python.png'
 import java from './tech/java.png'
+import swift from './tech/swift.png'
+import c from './tech/c.png'
+import mongo from './tech/mongodb.png'
+import express from './tech/expressjs.png'
+import aws from './tech/aws.png'
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -57,6 +62,9 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import cybertrip from './projects/cybertrip.png'
+import alien from './projects/alieninvasion.gif'
+import wiki from './projects/wikiracer.png'
 
 export {
   bwmap,
@@ -112,5 +120,13 @@ export {
   me,
   python,
   java,
-
+  swift,
+  c,
+  mongo,
+  express,
+  aws,
+  cybertrip,
+  alien,
+  wiki,
+  
 };

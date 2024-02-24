@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
-          src={me}
+          src={bwmap}
           alt="world map"
           className="w-full h-full sm:hidden block object-cover"
         />
@@ -84,8 +84,8 @@ const Hero = () => {
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            lg:ml-[70vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            sm:h-[80vh] md:h-[60vh] xl:h-[60vh]"
             src={me}
             alt="Cooper"
           />

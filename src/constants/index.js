@@ -32,6 +32,15 @@ import {
   IT,
   python,
   java,
+  swift,
+  c,
+  mongo,
+  express,
+  aws,
+  cybertrip,
+  alien,
+  wiki,
+  
 } from '../assets';
 
 export const navLinks = [
@@ -55,16 +64,16 @@ const services = [
     icon: frontend,
   },
   {
-    title: 'IT Support',
-    icon: IT,
-  },
-  {
     title: 'Cloud Computing',
     icon: cloud
   },
   {
     title: 'iOS Mobile Development',
     icon: apple,
+  },
+  {
+    title: 'IT Support',
+    icon: IT,
   },
 ];
 
@@ -78,16 +87,28 @@ const technologies = [
     icon: css,
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'Mongo DB',
+    icon: mongo,
+  },
+  {
+    name: 'express',
+    icon: express,
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'Node JS',
+    icon: nodejs,
   },
   {
     name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'docker',
+    icon: docker,
   },
   {
     name: 'Python 3',
@@ -98,32 +119,20 @@ const technologies = [
     icon: java,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'Swfit',
+    icon: swift,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'C',
+    icon: c,
   },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
+    name: 'aws',
+    icon: aws,
   },
 ];
 
@@ -161,11 +170,11 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'CyberTRIP',
+    description: 'A web-based tool designed to simplify cybersecurity incident tracking, management, and prioritization in real time.',
     tags: [
       {
-        name: 'react',
+        name: 'Flask',
         color: 'blue-text-gradient',
       },
       {
@@ -173,35 +182,35 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Agile',
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    image: cybertrip,
+    repo: 'https://github.com/cwharris77/cyberTRIP',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Alien Invasion',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A version of the classic Alien Invasion game created using pygame.',
     tags: [
       {
-        name: 'react',
+        name: 'pygame',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'python',
         color: 'green-text-gradient',
       },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'scss',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
+    image: alien,
+    repo: 'https://github.com/cwharris77/Alien-Invasion',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
@@ -250,25 +259,25 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Wiki Racer',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'An implementation of the Wiki Ladder game where the challenge is to navigate from a designated start Wikipedia page to a predetermined end page using only hyperlinks within the articles in the quickest time.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Memoization',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Mulit-threading',
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    image: wiki,
+    repo: 'https://github.com/cwharris77/CSC-210/tree/main/PA10-WikiRacer',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
 ];
