@@ -29,22 +29,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # - name: Checkout
+      #   uses: actions/checkout@v4
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v4
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     # Upload entire repository
+      #     path: '.'
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
       - name: Deploy React to GitHub Pages
         # You may pin to the exact commit or the version.
-        # uses: bitovi/github-actions-react-to-github-pages@b11ff1a0aa37ac7ef20f152904017e9ab1b31b56
-        uses: bitovi/github-actions-react-to-github-pages@v1.2.2
+        uses: bitovi/github-actions-react-to-github-pages@b11ff1a0aa37ac7ef20f152904017e9ab1b31b56
+        # uses: bitovi/github-actions-react-to-github-pages@v1.2.2
         with:
           # Specifies if this action should checkout the code
           checkout: true
