@@ -47,7 +47,7 @@ import python from './tech/python.png'
 import java from './tech/java.png'
 import swift from './tech/swift.png'
 import c from './tech/c.png'
-import mongo from './tech/mongodb.png'
+import mongo from './tech/mongoDB.png'
 import express from './tech/expressjs.png'
 import aws from './tech/aws.png'
 
