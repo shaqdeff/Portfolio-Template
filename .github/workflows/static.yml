@@ -38,9 +38,9 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-      # - name: Deploy to GitHub Pages
-      #   id: deployment
-      #   uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
       - name: Deploy React to GitHub Pages
         # You may pin to the exact commit or the version.
         # uses: bitovi/github-actions-react-to-github-pages@b11ff1a0aa37ac7ef20f152904017e9ab1b31b56
