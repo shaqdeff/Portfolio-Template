@@ -61,5 +61,5 @@ jobs:
           # Specifies the command to run the installation.
           install_command: npm ci # optional, default is npm ci
           # Specifies the command to run after the install command for the build
-          build_command: npm run preview # optional, default is npm run build
+          build_command: npm run build # optional, default is npm run build
           
