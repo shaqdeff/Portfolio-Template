@@ -43,13 +43,13 @@ jobs:
       #   uses: actions/deploy-pages@v4
       - name: Deploy React to GitHub Pages
         # You may pin to the exact commit or the version.
-        uses: bitovi/github-actions-react-to-github-pages@b11ff1a0aa37ac7ef20f152904017e9ab1b31b56
-        # uses: bitovi/github-actions-react-to-github-pages@v1.2.2
+        # uses: bitovi/github-actions-react-to-github-pages@b11ff1a0aa37ac7ef20f152904017e9ab1b31b56
+        uses: bitovi/github-actions-react-to-github-pages@v1.2.2
         with:
           # Specifies if this action should checkout the code
           checkout: true
           # Specifies the path of the static assets after building
-          path: 'dist'
+          path: 'dist/'
           # Specifies the command to run the installation.
           install_command: npm install
           # Specifies the command to run after the install command for the build
