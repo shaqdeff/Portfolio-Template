@@ -1,0 +1,22 @@
+name: Deploy React to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name if needed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Deploy to GitHub Pages
+      uses: bitovi/github-actions-react-to-github-pages@v1.2.2
+      with:
+        checkout: true
+        path: dist
+        install_command: npm install  # Or your preferred install command
+        build_command: npm run build   # Or your preferred build command
