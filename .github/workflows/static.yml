@@ -49,7 +49,7 @@ jobs:
           # Specifies if this action should checkout the code
           checkout: true
           # Specifies the path of the static assets after building
-          path: 'dist/'
+          path: dist
           # Specifies the command to run the installation.
           install_command: npm install
           # Specifies the command to run after the install command for the build
