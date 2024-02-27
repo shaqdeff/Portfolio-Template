@@ -111,7 +111,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [active, setActive] = useState('project-2');
+  const [active, setActive] = useState('project-1');
 
   return (
     <div className="-mt-[6rem]">
