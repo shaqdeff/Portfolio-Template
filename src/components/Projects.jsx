@@ -75,8 +75,8 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <button
-              className="live-demo flex justify-between 
+            {/* <button
+              className="live-demo flex justify-center 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
               whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
@@ -101,8 +101,8 @@ const ProjectCard = ({
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
-              LIVE DEMO
-            </button>
+            DEMO
+            </button> */}
           </div>
         </>
       )}
@@ -126,9 +126,9 @@ const Projects = () => {
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           These projects demonstrate my expertise with practical examples of
           some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          repositories with demos. They showcase my ability to tackle
+          intricate challenges, adapt to various technologies, and work as
+          part of a team.
         </motion.p>
       </div>
 

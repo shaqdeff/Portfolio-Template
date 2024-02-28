@@ -40,6 +40,8 @@ import {
   cybertrip,
   alien,
   wiki,
+  sudoku,
+  uofa,
   
 } from '../assets';
 
@@ -138,11 +140,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Student Technology Assistant',
+    company_name: 'University of Arizona',
+    icon: uofa,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jun 2022 - Present',
   },
   {
     title: 'Mentor (Volunteer)',
@@ -211,28 +213,28 @@ const projects = [
     ],
     image: alien,
     repo: 'https://github.com/cwharris77/Alien-Invasion',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    demo: 'https://cwharris77.github.io/Alien-Invasion/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Sudoku',
+    description: 'A sudoku game built as part of an Agile team using JavaFX',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'JavaFX',
         color: 'green-text-gradient',
       },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    image: sudoku,
+    repo: 'https://github.com/cwharris77/CSC-335/tree/main/team-project-segfault',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {

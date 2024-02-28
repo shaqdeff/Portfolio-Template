@@ -55,6 +55,7 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import uofa from './company/uofa.png'
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -65,6 +66,7 @@ import space from './projects/space-hub.png';
 import cybertrip from './projects/cybertrip.png'
 import alien from './projects/alieninvasion.gif'
 import wiki from './projects/wikiracer.png'
+import sudoku from './projects/sudoku.png'
 
 export {
   bwmap,
@@ -128,5 +130,6 @@ export {
   cybertrip,
   alien,
   wiki,
-  
+  sudoku,
+  uofa,
 };

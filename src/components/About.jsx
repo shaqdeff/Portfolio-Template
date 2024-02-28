@@ -37,10 +37,12 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm a Computer Science and Information Science Technology and the Arts double major
-        with a background in web development and software engineering. I'm skilled at creating
-        programs in Java, Python, Javascript, Swift and C with experience working as part of an Agile team.
-
+          I'm currently pursuing a double major in Computer Science and Information Science Technology and the Arts, 
+          My academic journey has equipped me with comprehensive knowledge and skills, with a focus on web development 
+          and software engineering. I'm proficient in several programming languages, including Java, Python, Javascript, 
+          Swift, and C. I've also gained experience using frameworks such as Express, React,
+          Flask and Django for web development. Whether it's building RESTful APIs or crafting dynamic user interfaces, I bring 
+          a versatile skill set to the table.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
