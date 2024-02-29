@@ -45,6 +45,8 @@ const App = () => {
           <Contact />
         </div>
       </div>
+      <SpeedInsights />
+      <Analytics />
     </BrowserRouter>
   );
 };
