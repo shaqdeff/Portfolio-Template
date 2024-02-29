@@ -1,4 +1,4 @@
 # Portfolio Template
-This repo was forked from: https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
 
+This repo is a portfolio template forked from: https://shaqdeff/Portfolio-Template. You can find instructions for creating and running your own repo on his page.
 
