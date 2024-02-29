@@ -83,9 +83,9 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[70vw] md:ml-[60vw] xmd:ml-[50vw] 2xl:ml-[83vw]
-            sm:h-[70vh] md:h-[60vh] xl:h-[60vh]"
+            className="absolute bottom-0 ml-[35%] 
+            2xl:ml-[80%] lg:ml-[65%] xmd:ml-[65%] md:ml-[40%] sm:ml-[35%]
+            xl:h-[60vh] smd:h-[60vh] md:h-[65vh]"
             src={me}
             alt="Cooper"
           />

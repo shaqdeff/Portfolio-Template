@@ -65,20 +65,21 @@ const Navbar = () => {
                 />
               </div>
               <ul
-                className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                className="list-none flex flex-col gap-[10rem]
+                items-start justify-end mt-[6rem]">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
-                    className={`${
+                    className={`text-sm ${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                    } font-bold font-arenq 
+                      uppercase tracking-[1px] cursor-pointer`} 
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
-                    }}>
+                    }}
+                    style={{fontSize: '4em', margin: '0', padding: '0', textAlign: 'right'}}>
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>
                 ))}
