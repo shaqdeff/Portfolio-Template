@@ -42,6 +42,7 @@ import {
   wiki,
   sudoku,
   uofa,
+  stl
   
 } from '../assets';
 
@@ -194,6 +195,28 @@ const projects = [
   },
   {
     id: 'project-2',
+    name: 'STL File Creator',
+    description: `A C program for creating and manipulating 3D scenes and exporting them to STL files in ASCII or binary format.`,
+    tags: [
+      {
+        name: 'C',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'STL',
+        color: 'green-text-gradient',
+      },
+      // {
+      //   name: '',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: stl,
+    repo: 'https://github.com/cwharris77/CSC-352/tree/main/pa9',
+    demo: 'https://movie-metro.netlify.app/',
+  },
+  {
+    id: 'project-3',
     name: 'Alien Invasion',
     description:
       'A version of the classic Alien Invasion game created using pygame.',
@@ -216,7 +239,7 @@ const projects = [
     demo: 'https://cwharris77.github.io/Alien-Invasion/',
   },
   {
-    id: 'project-3',
+    id: 'project-4',
     name: 'Sudoku',
     description: 'A sudoku game built as part of an Agile team using JavaFX',
     tags: [
@@ -236,28 +259,6 @@ const projects = [
     image: sudoku,
     repo: 'https://github.com/cwharris77/CSC-335/tree/main/team-project-segfault',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
   },
   {
     id: 'project-5',

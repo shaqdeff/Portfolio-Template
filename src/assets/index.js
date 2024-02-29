@@ -67,6 +67,7 @@ import cybertrip from './projects/cybertrip.png'
 import alien from './projects/alieninvasion.gif'
 import wiki from './projects/wikiracer.png'
 import sudoku from './projects/sudoku.png'
+import stl from './projects/stl.png'
 
 export {
   bwmap,
@@ -132,4 +133,5 @@ export {
   wiki,
   sudoku,
   uofa,
+  stl,
 };
