@@ -77,12 +77,12 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <ul className="!sm:list-none sm:flex flex-row gap-1 mt-4">
+            <ul className="list-none sm:flex flex-row gap-1 mt-4 items-center">
             {tags.map((tag, index) => [
               <li key={tag.name} className="text-white sm:text-[14px] text-[12px]">
                 {tag.name} 
               </li>,
-              index !== tags.length - 1 && <li className="sm: hidden" key={index}>&#8226;</li>,
+              index !== tags.length - 1 && <li className="hidden sm:block" key={index}>&#8226;</li>,
             ])}
           </ul>
             {/* <button
