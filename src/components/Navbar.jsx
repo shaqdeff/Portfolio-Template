@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu, logo, logotext, linkedin, github } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -23,16 +23,39 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+            className="sm:w-[70px] sm:h-[60px] w-[45px] h-[45px] object-contain"
           />
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <img
+          {/* <img
             src={logotext}
             alt="logo"
             className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
+          /> */}
+          <div
+                onClick={() => window.open("https://www.linkedin.com/in/cooper-harris77/", '_blank')}
+                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+                  flex justify-center items-center cursor-pointer
+                  sm:opacity-[0.9] opacity-[0.8]">
+                <img
+                  src={linkedin}
+                  alt="Linkedin Link"
+                  className="object-cover rounded-full"
+                />
+              </div>
+              
+              <div
+                onClick={() => window.open("https://github.com/cwharris77", '_blank')}
+                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+                  flex justify-center items-center cursor-pointer
+                  sm:opacity-[0.9] opacity-[0.8]">
+                <img
+                  src={github}
+                  alt="Github Link"
+                  className="w-4/5 h-4/5 object-contain"
+                />
+              </div>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (

@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { github, pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
+import InfoTile from './MoreInfo';
 
 const ProjectCard = ({
   id,
@@ -21,7 +22,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-      variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+      variants={fadeIn('right', 'spring', index * 0.5, .75)}
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
       } flex items-center justify-center min-w-[170px] 
@@ -79,7 +80,7 @@ const ProjectCard = ({
             </p>
             <ul className="list-none sm:flex flex-row gap-1 mt-4 items-center">
             {tags.map((tag, index) => [
-              <li key={tag.name} className="text-white sm:text-[14px] text-[12px]">
+              <li key={tag.name} className="text-white sm:text-[13px] text-[14px]">
                 {tag.name} 
               </li>,
               index !== tags.length - 1 && <li className="hidden sm:block" key={index}>&#8226;</li>,
@@ -94,7 +95,8 @@ const ProjectCard = ({
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() => window.open(demo, '_blank')}
+              // onClick={() => window.open(demo, '_blank')}
+              onClick={() => setShowInfo(!showInfo)}
               onMouseOver={() => {
                 document
                   .querySelector('.btn-icon')
@@ -114,22 +116,16 @@ const ProjectCard = ({
             DEMO
             </button> */}
           </div>
+          {/* <InfoTile info={info} active={active}></InfoTile> */}
         </>
       )}
     </motion.div>
+    
   );
 };
 
 const Projects = () => {
   const [active, setActive] = useState('project-1');
-
-  // useEffect(() => {
-
-  //   // Additional logic or side effects can be added here
-
-  //   // Cleanup logic (if needed) goes here
-
-  // }, [active]);
 
   return (
     <div className="-mt-[6rem]">
@@ -156,7 +152,7 @@ const Projects = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] sm:gap-3 gap-7">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}

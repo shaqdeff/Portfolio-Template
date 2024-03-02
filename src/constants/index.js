@@ -42,7 +42,9 @@ import {
   wiki,
   sudoku,
   uofa,
-  stl
+  stl,
+  remotetasks,
+  linkedin,
   
 } from '../assets';
 
@@ -141,33 +143,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Student Technology Assistant',
+    title: 'Computer Science Student',
     company_name: 'University of Arizona',
     icon: uofa,
-    iconBg: '#333333',
+    iconBg: '#001a5d',
+    date: 'Aug 2000 - May 2024',
+  },
+  {
+    title: 'Student Technology Assistant',
+    company_name: `Housing & Residential Life ${'@'} University of Arizona`,
+    icon: uofa,
+    iconBg: '#e2002d',
     date: 'Jun 2022 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    title: 'AI Reviewer',
+    company_name: 'Remotetasks',
+    icon: remotetasks,
+    iconBg: '#35ce9d',
+    date: 'Dec 2023 - Current',
   },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+  // {
+  //   title: 'Full Stack Developer',
+  //   company_name: 'Diversity Cyber Council',
+  //   icon: dcc,
+  //   iconBg: '#333333',
+  //   date: 'Sep 2022 - Present',
+  // },
 ];
 
 const projects = [

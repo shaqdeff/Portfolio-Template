@@ -28,6 +28,7 @@ import sendHover from './icons/sendHover.png';
 import cloud from './icons/cloudComputing.png'
 import apple from './icons/appleLogo.png'
 import IT from './icons/ITLogo.png'
+import linkedin from './icons/linkedin.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -56,6 +57,7 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 import uofa from './company/uofa.png'
+import remotetasks from './company/remotetasks.png'
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -134,4 +136,6 @@ export {
   sudoku,
   uofa,
   stl,
+  remotetasks,
+  linkedin,
 };
