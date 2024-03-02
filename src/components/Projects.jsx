@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
@@ -10,12 +10,14 @@ const ProjectCard = ({
   id,
   name,
   description,
+  tags,
   image,
   repo,
   demo,
   index,
   active,
   handleClick,
+  info,
 }) => {
   return (
     <motion.div
@@ -36,7 +38,7 @@ const ProjectCard = ({
       />
 
       {active !== id ? (
-        <div className="flex items-center justify-start pr-[4.5rem]">
+        <div className="flex items-center justify-center pr-[4.5rem]">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
@@ -49,7 +51,7 @@ const ProjectCard = ({
         <>
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
+            flex-col bg-[rgba(126,122,122,0.7)] rounded-b-[24px] z-20">
             <div className="absolute inset-0 flex justify-end m-3">
               <div
                 onClick={() => window.open(repo, '_blank')}
@@ -70,11 +72,19 @@ const ProjectCard = ({
               {name}
             </h2>
             <p
-              className="text-silver sm:text-[14px] text-[12px] 
+              className="text-white sm:text-[14px] text-[12px] 
               max-w-3xl sm:leading-[24px] leading-[18px]
               font-poppins tracking-[1px]">
               {description}
             </p>
+            <ul className="!sm:list-none sm:flex flex-row gap-1 mt-4">
+            {tags.map((tag, index) => [
+              <li key={tag.name} className="text-white sm:text-[14px] text-[12px]">
+                {tag.name} 
+              </li>,
+              index !== tags.length - 1 && <li className="sm: hidden" key={index}>&#8226;</li>,
+            ])}
+          </ul>
             {/* <button
               className="live-demo flex justify-center 
               sm:text-[16px] text-[14px] text-timberWolf 
@@ -112,6 +122,14 @@ const ProjectCard = ({
 
 const Projects = () => {
   const [active, setActive] = useState('project-1');
+
+  // useEffect(() => {
+
+  //   // Additional logic or side effects can be added here
+
+  //   // Cleanup logic (if needed) goes here
+
+  // }, [active]);
 
   return (
     <div className="-mt-[6rem]">

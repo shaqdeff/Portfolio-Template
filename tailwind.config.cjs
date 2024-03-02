@@ -27,6 +27,7 @@ export default {
         richBlack: '#2e2e2e',
         eerieBlack: '#1f1f1f',
         onyx: '#5b5b5b',
+        cyber: '#62d3f2',
       },
       boxShadow: {
         card: '0px 35px 120px -15px #1f1f1f',

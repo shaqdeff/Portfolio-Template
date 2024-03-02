@@ -178,17 +178,18 @@ const projects = [
     tags: [
       {
         name: 'Flask',
-        color: 'blue-text-gradient',
+        color: 'white',
       },
       {
-        name: 'mongodb',
+        name: 'MongoDB',
         color: 'green-text-gradient',
       },
       {
-        name: 'Agile',
+        name: 'Web Development',
         color: 'pink-text-gradient',
       },
     ],
+    info: "",
     image: cybertrip,
     repo: 'https://github.com/cwharris77/cyberTRIP',
     demo: 'https://shaqdeff.github.io/KomiKult/',
@@ -203,14 +204,15 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'STL',
+        name: 'Data Structures',
         color: 'green-text-gradient',
       },
-      // {
-      //   name: '',
-      //   color: 'pink-text-gradient',
-      // },
+      {
+        name: 'STL',
+        color: 'pink-text-gradient',
+      },
     ],
+    info: "This project was accomplished as part of an Agile team",
     image: stl,
     repo: 'https://github.com/cwharris77/CSC-352/tree/main/pa9',
     demo: 'https://movie-metro.netlify.app/',
@@ -222,18 +224,19 @@ const projects = [
       'A version of the classic Alien Invasion game created using pygame.',
     tags: [
       {
-        name: 'pygame',
+        name: 'Python3',
         color: 'blue-text-gradient',
       },
       {
-        name: 'python',
+        name: 'Pygame',
         color: 'green-text-gradient',
       },
-      // {
-      //   name: 'scss',
-      //   color: 'pink-text-gradient',
-      // },
+      {
+        name: 'SDLC',
+        color: 'pink-text-gradient',
+      },
     ],
+    info: "",
     image: alien,
     repo: 'https://github.com/cwharris77/Alien-Invasion',
     demo: 'https://cwharris77.github.io/Alien-Invasion/',
@@ -251,11 +254,12 @@ const projects = [
         name: 'JavaFX',
         color: 'green-text-gradient',
       },
-      // {
-      //   name: 'css',
-      //   color: 'pink-text-gradient',
-      // },
+      {
+        name: 'MVC',
+        color: 'pink-text-gradient',
+      },
     ],
+    info: "",
     image: sudoku,
     repo: 'https://github.com/cwharris77/CSC-335/tree/main/team-project-segfault',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
@@ -275,10 +279,11 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'Mulit-threading',
+        name: 'Multi-Threading',
         color: 'pink-text-gradient',
       },
     ],
+    info: "",
     image: wiki,
     repo: 'https://github.com/cwharris77/CSC-210/tree/main/PA10-WikiRacer',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
