@@ -53,7 +53,7 @@ const Navbar = () => {
                 <img
                   src={github}
                   alt="Github Link"
-                  className="w-4/5 h-4/5 object-contain"
+                  className="object-contain"
                 />
               </div>
         </Link>
