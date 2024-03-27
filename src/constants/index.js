@@ -155,33 +155,12 @@ const experiences = [
 ];
 
 const projects = [
+
   {
     id: 'project-1',
-    name: 'General events',
-    description: 'A platform that highlights events of a crtain company',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/Charity-Nelima/events-general',
-    demo: 'https://general-events.vercel.app/',
-  },
-  {
-    id: 'project-2',
-    name: 'Get recruited',
+    name: 'Hemllin',
     description:
-      'A recruitment app that helps recruiters find github profiles for job seekers.',
+      'A web app that offers strategy consulting services.',
     tags: [
       {
         name: 'react',
@@ -197,31 +176,53 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/Charity-Nelima/phase-2-independent-project?tab=readme-ov-file',
-    demo: 'https://phase-2-independent-project-1n464cdd4-charity-nelima.vercel.app/home/',
+    repo: 'https://github.com/Charity-Nelima/Hemllin-master-master-Copy',
+    demo: 'https://hemllin-master-master-copy.vercel.app',
   },
   {
-    id: 'project-3',
-    name: 'Comrade restaurant',
-    description: 'This is a single-page restaurant app built from react',
+    id: 'project-2',
+    name: 'Edgeway Travel',
+    description: 'A platform that highlights tourism and travel details of a company',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/Charity-Nelima/comrades_restaurant-1',
-    demo: 'https://comrades-restaurant.vercel.app/',
+    image: nyeusi,
+    repo: 'https://github.com/Charity-Nelima/events-general',
+    demo: 'https://general-events.vercel.app/',
   },
+  // {
+  //   id: 'project-3',
+  //   name: 'Comrade restaurant',
+  //   description: 'This is a single-page restaurant app built from react',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: math,
+  //   repo: 'https://github.com/Charity-Nelima/comrades_restaurant-1',
+  //   demo: 'https://comrades-restaurant.vercel.app/',
+  // },
 
 ];
 
