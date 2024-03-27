@@ -27,6 +27,7 @@ import {
   dcc,
   kelhel,
   microverse,
+
 } from '../assets';
 
 export const navLinks = [
@@ -123,64 +124,43 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: 'Front-End Developer',
+  //   company_name: 'Cover Hunt',
+  //   icon: coverhunt,
+  //   iconBg: '#333333',
+  //   date: 'Aug 2021 - Feb 2022',
+  // },
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'IT Intern',
+    company_name: 'Lakehub',
     icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    iconBg: '#23395d',
+    date: 'August 2021 - Feb 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Wordpress developer',
+    company_name: 'KaaKazini',
     icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    iconBg: '#e8e337',
+    date: 'May 2022 - Aug 2023',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Ziqweb',
     icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    iconBg: '#f2eded',
+    date: 'Sep 2023 - Present',
   },
 ];
 
 const projects = [
+
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Hemllin',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A web app that offers strategy consulting services.',
     tags: [
       {
         name: 'react',
@@ -196,76 +176,54 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/Charity-Nelima/Hemllin-master-master-Copy',
+    demo: 'https://hemllin-master-master-copy.vercel.app',
   },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    id: 'project-2',
+    name: 'Edgeway Travel',
+    description: 'A platform that highlights tourism and travel details of a company',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/Charity-Nelima/events-general',
+    demo: 'https://general-events.vercel.app/',
   },
+  // {
+  //   id: 'project-3',
+  //   name: 'Comrade restaurant',
+  //   description: 'This is a single-page restaurant app built from react',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: math,
+  //   repo: 'https://github.com/Charity-Nelima/comrades_restaurant-1',
+  //   demo: 'https://comrades-restaurant.vercel.app/',
+  // },
+
 ];
 
 export { services, technologies, experiences, projects };
