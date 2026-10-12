@@ -107,11 +107,18 @@ const technologies = [{
 
 const experiences = [
     {
+        title: 'Senior Software Engineer',
+        company_name: 'HubSpot',
+        icon: hubspot,
+        iconBg: '#333333',
+        date: 'August 2026 - Present',
+    },
+    {
         title: 'Software Engineer',
         company_name: 'HubSpot',
         icon: hubspot,
         iconBg: '#333333',
-        date: 'September 2025 - Present',
+        date: 'September 2025 - July 2026',
     },
     {
         title: 'Software Engineer',
