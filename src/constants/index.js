@@ -95,7 +95,14 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
- 
+ {
+    name: 'sap',
+    icon: sap,
+  },
+  {
+    name: 'pmi',
+    icon: pmi,
+  },
 ];
 
 const experiences = [
