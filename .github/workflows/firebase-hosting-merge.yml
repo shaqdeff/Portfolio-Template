@@ -19,4 +19,4 @@ jobs:
             ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_PROJEC_1707216060128
             }}
           channelId: live
-          projectId: portfolio-projec-1707216060128
+          projectId: tshepo-shale-portfolio
