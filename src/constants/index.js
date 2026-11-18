@@ -99,6 +99,28 @@ const technologies = [
 ];
 
 const experiences = [
+       {
+    title: 'SAP Junior FICA Consultant',
+    company_name: 'South African Revenue Services',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'July 2025 - Present',
+  },
+      {
+    title: 'SAP Junior ABAP Platform Developer',
+    company_name: 'South African Revenue Services',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'October 2024 - July 2025',
+  },
+  
+    {
+    title: 'Cloud Platforms Apprentice / Business Development Enthusiast / Google Education Project Lead',
+    company_name: 'Liquid C2',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'January 2024 - January 2025',
+  },
   {
     title: 'Junior Software Developer',
     company_name: 'Younglings Africa',

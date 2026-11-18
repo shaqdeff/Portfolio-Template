@@ -13,7 +13,7 @@ const SocialMediaIcons = () => {
   return (
     <div className="flex gap-3 mt-3">
       <a
-        href="https://www.linkedin.com/in/tshepo-shale-398490184"
+        href="https://www.linkedin.com/in/tshepo-shale/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -82,7 +82,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Software Developer. Project Manager.{" "}
+              Strategic Development Consultant. Project Manager.{" "}
               <br className="sm:block hidden" />
               Avid Problem-Solver. Solutions Driven.
               <SocialMediaIcons />

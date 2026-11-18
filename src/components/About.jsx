@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-       Versatile Software Alchemist and Project Maestro: Bridging Innovation with Expertise in Software Development, I.T, and Project Management.
+       Versatile Technology Alchemist and Strategic Maestro: Bridging Innovation, Enterprise Architecture, Digital Business Transformation, and Strategic Implementation.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
