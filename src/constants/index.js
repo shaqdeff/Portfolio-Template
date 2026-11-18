@@ -116,10 +116,10 @@ const experiences = [
   
     {
     title: 'Cloud Platforms Apprentice / Business Development Enthusiast / Google Education Project Lead',
-    company_name: 'Liquid C2',
+    company_name: 'Liquid Telecommunications',
     iconBg: '#333333',
     icon: coverhunt,
-    date: 'January 2024 - January 2025',
+    date: 'May 2024 - September 2024',
   },
   {
     title: 'Junior Software Developer',
