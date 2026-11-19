@@ -1,7 +1,6 @@
 import {
   frontend,
   backend,
-  ux,
   prototyping,
   javascript,
   typescript,
@@ -13,16 +12,11 @@ import {
   nodejs,
   git,
   figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
@@ -32,15 +26,15 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Base',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Creations',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Interact',
   },
 ];
 
@@ -50,17 +44,20 @@ const services = [
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Project Manager',
     icon: backend,
   },
+  
   {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
+    title: 'Agile/SCRUM',
     icon: prototyping,
   },
+
+  {
+    title: 'SAP Consultant',
+    icon: backend,
+  }, 
+  
 ];
 
 const technologies = [
@@ -76,18 +73,12 @@ const technologies = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
+
   {
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+ 
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -97,18 +88,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
     name: 'git',
     icon: git,
   },
@@ -116,48 +95,75 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
+       {
+    title: 'SAP Junior FICA Consultant',
+    company_name: 'South African Revenue Services',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'July 2025 - Present',
+  },
+      {
+    title: 'SAP Junior ABAP Platform Developer',
+    company_name: 'South African Revenue Services',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'October 2024 - July 2025',
+  },
+  
+    {
+    title: 'Cloud Platforms Apprentice / Business Development Enthusiast / Google Education Project Lead',
+    company_name: 'Liquid Telecommunications',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'May 2024 - September 2024',
+  },
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Junior Software Developer',
+    company_name: 'Younglings Africa',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'January 2024 - January 2025',
+  },
+  {
+    title: 'Software Development Intern',
+    company_name: 'UVU Africa as CapaCiTi',
+    iconBg: '#333333',
+    icon: coverhunt,
+    date: 'July 2023 - January 2024',
+  },
+  {
+    title: 'eLearning and ICT Intern',
+    company_name: 'Dept of Education North West',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'March 2022 - March 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Site and Interim Project Manager',
+    company_name: 'Ke A Dira Projects Plant Hire Pty Ltd',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'July 2016 - August 2018',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Casual',
+    company_name: 'Food Lovers Market',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+    date: 'December 2014',
+
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Unit Converter',
+    description: 'Basic Unit metric converter, coded in Java.',
     tags: [
       {
         name: 'react',
@@ -173,14 +179,13 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/TshepoShale/Unit-Converter-in-Java.git',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'edtech Website',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A state-of-the-art website based and focused on EdTech.',
     tags: [
       {
         name: 'react',
@@ -196,13 +201,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/TshepoShale/GroupWebsite.git',
+    demo: 'https://group-website-sqq9-pvam45sss-tsheposhales-projects.vercel.app/',
   },
   {
     id: 'project-3',
     name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    description: 'This is a single-page calculator app built with React.',
     tags: [
       {
         name: 'nextjs',
@@ -223,8 +228,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Skillset Exhibit',
+    description: `A showcase of my skills, by means of a professional portfolio. This is me, in a nutshell. Feast your eyes!`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +245,14 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/TshepoShale/Portfolio.git',
+    demo: 'https://stalwart-heliotrope-9d0745.netlify.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Banking App',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'This is a simple banking app, coded in Python, with a simple Graphical User Interface.',
     tags: [
       {
         name: 'nextjs',
@@ -263,8 +268,7 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/TshepoShale/pythonProject1.git',
   },
 ];
 

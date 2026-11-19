@@ -56,7 +56,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+         Professional Career and 
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
           Work Experience.
@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'https://drive.google.com/file/d/178kDCq09Nm_-ny08iOwL_eJ053OxrGBH/view?usp=sharing', //paste the link to your resume here
                   '_blank'
                 )
               }
@@ -116,7 +116,7 @@ const Experience = () => {
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
               }}>
-              MY RESUME
+              MY CV
               <img
                 src={download}
                 alt="download"
